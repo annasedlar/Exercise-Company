@@ -1,0 +1,21 @@
+.exercises{
+  width:73%;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  margin-left: 3%;
+  overflow: scroll;
+}
+
+.exercise-list{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  overflow: scroll;
+}
+
+.workout-name-input{
+  width: 90%;
+  text-align: center
+}

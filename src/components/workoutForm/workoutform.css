@@ -1,0 +1,25 @@
+.workout-submit{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.workout-exercises{
+  width: 40%
+}
+
+.all-workouts{
+  width: 55%;
+}
+
+.draggable-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.draggable-buttons{
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}

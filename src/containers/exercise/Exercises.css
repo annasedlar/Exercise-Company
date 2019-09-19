@@ -1,0 +1,61 @@
+.exercises{
+  width:73%;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  margin-left: 3%;
+}
+
+.exercises h4 {
+  position: relative;
+  display: inline-block;
+}
+
+.basic-info{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.points{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.weights{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.repsToPoints {
+  width: 20%;
+}
+.menWeight {
+  width: 40%;
+}
+.womenWeight {
+  width: 40%;
+}
+
+.button {
+  z-index: 0;
+}
+
+.errors{
+  color: red;
+  text-align: center;
+}
+
+.errorDiv {
+  border: 1px solid red;
+  display: table;
+  margin: auto;
+  padding: 1%;
+}
+
+.feedback-header {
+  font-weight: bold;
+}

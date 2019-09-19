@@ -1,0 +1,33 @@
+.login {
+  text-align: left;
+  width: 73%;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  margin-left: 3%;
+  top: 0;
+}
+
+.loading-screen{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+}
+
+.loading-screen .loading-header {
+  text-align: center;
+  margin-left: 3%;
+}
+
+.pre-loader {
+  text-align: center;
+}
+
+#loading-logo{
+  width: 20%;
+  height: 20%;
+}

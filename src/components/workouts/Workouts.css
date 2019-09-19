@@ -1,0 +1,53 @@
+.workouts {
+  width:73%;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  margin-left: 3%;
+  top: 0;
+  overflow: scroll;
+}
+
+.assign-button {
+  position: absolute;
+  right: 10%;
+  display: inline-block;
+}
+
+.modal-overlay {
+  visibility: hidden
+}
+
+#materialize-modal-overlay-1 {
+  visibility: hidden
+}
+
+.workouts > ul li {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 23%;
+}
+
+ol {
+  column-count: 2;
+  column-gap: 13%;
+  margin-top: 3%;
+}
+
+ol li{
+  list-style-type: decimal;
+  display: list-item;
+  list-style-position: inside;
+  font-size: 14px;
+  margin: 3%;
+}
+
+.date-list {
+  padding-bottom: 1%;
+  margin-bottom: 5%;
+  border-bottom: 1px solid black
+}
+
+.date-list span {
+  font-size: 10px;
+}

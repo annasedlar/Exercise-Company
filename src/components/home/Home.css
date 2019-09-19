@@ -1,0 +1,8 @@
+.Home {
+  width:73%;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  margin-left: 3%;
+  top: 0;
+}

@@ -1,0 +1,20 @@
+.workout-builder {
+  /* text-align: center; */
+  overflow: scroll;
+  width:73%;
+  height: 100vh;
+  position: absolute;
+  display: inline-block;
+  margin-left: 3%;
+  top: 0;
+}
+
+.exercise-info {
+  text-align: center;
+  width: 30%;
+}
+
+.exercise-info > div {
+  width: 100%;
+  margin: 0;
+}
